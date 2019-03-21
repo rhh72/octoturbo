@@ -51,7 +51,7 @@ function renderData(res) {
               )}
             </td>
             <td class="namefont">
-              <a href={res.url}>{res.name}</a>
+              <a target="_parent" href={res.url}>{res.name}</a>
               <div class="icondiv">
                 {res.crunchbase &&
                 res.crunchbase != "NULL" &&
@@ -173,7 +173,45 @@ const App = () => (
   >
     <table class="maintable">
       <tr valign="top">
+        
+        
         <td>
+          <DataSearch
+            componentId="search"
+            dataField={["name", "jobtitle", "jobcompany", "sector"]}
+            fieldWeights={[1]}
+            fuzziness={0}
+            highlightField={["name"]}
+            style={{
+              marginBottom: 20
+            }}
+          />
+
+          <SelectedFilters />
+
+          <ReactiveList
+            componentId="result"
+            dataField="name"
+            pagination={true}
+            react={{
+              and: [
+                "Country",
+                "search",
+                "Sector",
+                "willingness",
+                "quality",
+                "Region",
+                "lsfirstdegree"
+              ]
+            }}
+            renderData={renderData}
+            size={20}
+            style={{
+              marginTop: 20
+            }}
+          />
+        </td>
+<td>
           <table class="maintable">
             <tr valign="top">
               <td>
@@ -306,43 +344,6 @@ const App = () => (
                 "Region",
                 "lsfirstdegree"
               ]
-            }}
-          />
-        </td>
-        <td />
-        <td>
-          <DataSearch
-            componentId="search"
-            dataField={["name", "jobtitle", "jobcompany", "sector"]}
-            fieldWeights={[1]}
-            fuzziness={0}
-            highlightField={["name"]}
-            style={{
-              marginBottom: 20
-            }}
-          />
-
-          <SelectedFilters />
-
-          <ReactiveList
-            componentId="result"
-            dataField="name"
-            pagination={true}
-            react={{
-              and: [
-                "Country",
-                "search",
-                "Sector",
-                "willingness",
-                "quality",
-                "Region",
-                "lsfirstdegree"
-              ]
-            }}
-            renderData={renderData}
-            size={20}
-            style={{
-              marginTop: 20
             }}
           />
         </td>
