@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/octoturbo/static/js/runtime~main.b54754b5.js"
   },
   {
-    "revision": "e21bd4d5a38f7a861925",
-    "url": "/octoturbo/static/js/main.7a55cf1c.chunk.js"
+    "revision": "5e92628b151037fb7bf3",
+    "url": "/octoturbo/static/js/main.cbb78e8d.chunk.js"
   },
   {
     "revision": "02053234031beec21125",
     "url": "/octoturbo/static/js/2.28db9f36.chunk.js"
   },
   {
-    "revision": "e21bd4d5a38f7a861925",
+    "revision": "5e92628b151037fb7bf3",
     "url": "/octoturbo/static/css/main.e3d7fc26.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/octoturbo/static/css/2.2ad05b4b.chunk.css"
   },
   {
-    "revision": "d1e58e2a30515f042f56b45c356f0c44",
+    "revision": "fa1214061054626a69287b6858cb0073",
     "url": "/octoturbo/index.html"
   }
 ];
