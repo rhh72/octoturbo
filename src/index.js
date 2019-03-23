@@ -352,4 +352,7 @@ const App = () => (
   </ReactiveBase>
 );
 
+var urlParams = new URLSearchParams(window.location.search);
+if (urlParams.get('sdvnkjsdsjkng3093248954wsfdsdd0023mm2rwiumrgw9') == "2jkn2jk4njk53in5un359unt9ntgjkmrj4393943t349hnrwg389232i2") {
 ReactDOM.render(<App />, document.getElementById("root"));
+}
