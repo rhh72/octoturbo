@@ -1,14 +1,14 @@
 {
   "main.css": "/octoturbo/static/css/main.1c3d9514.chunk.css",
-  "main.js": "/octoturbo/static/js/main.edc9d09e.chunk.js",
-  "main.js.map": "/octoturbo/static/js/main.edc9d09e.chunk.js.map",
+  "main.js": "/octoturbo/static/js/main.bac30ada.chunk.js",
+  "main.js.map": "/octoturbo/static/js/main.bac30ada.chunk.js.map",
   "runtime~main.js": "/octoturbo/static/js/runtime~main.b54754b5.js",
   "runtime~main.js.map": "/octoturbo/static/js/runtime~main.b54754b5.js.map",
   "static/css/2.2ad05b4b.chunk.css": "/octoturbo/static/css/2.2ad05b4b.chunk.css",
   "static/js/2.28db9f36.chunk.js": "/octoturbo/static/js/2.28db9f36.chunk.js",
   "static/js/2.28db9f36.chunk.js.map": "/octoturbo/static/js/2.28db9f36.chunk.js.map",
   "index.html": "/octoturbo/index.html",
-  "precache-manifest.2cea34c9512bf64d55d2ceeb43b97955.js": "/octoturbo/precache-manifest.2cea34c9512bf64d55d2ceeb43b97955.js",
+  "precache-manifest.6d280d6601a1c64cc621eb9b7eb1f988.js": "/octoturbo/precache-manifest.6d280d6601a1c64cc621eb9b7eb1f988.js",
   "service-worker.js": "/octoturbo/service-worker.js",
   "static/css/2.2ad05b4b.chunk.css.map": "/octoturbo/static/css/2.2ad05b4b.chunk.css.map",
   "static/css/main.1c3d9514.chunk.css.map": "/octoturbo/static/css/main.1c3d9514.chunk.css.map"
